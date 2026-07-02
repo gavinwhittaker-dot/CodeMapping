@@ -17,7 +17,7 @@ page 50100 "R365 NAV BC Code Mapping"
             {
                 field("Type"; Rec."Type")
                 {
-                    ToolTip = 'Specifies what is being mapped, for example GL Account, Cost Centre, Fund, Analysis Code or Project.';
+                    ToolTip = 'Specifies what is being mapped, for example G/L Account, Cost Centre, Fund, Analysis Code or Project.';
                 }
                 field("Old Code"; Rec."Old Code")
                 {
@@ -44,10 +44,10 @@ page 50100 "R365 NAV BC Code Mapping"
         {
             action(FilterGLAccounts)
             {
-                Caption = 'GL Accounts only';
+                Caption = 'G/L Accounts only';
                 ApplicationArea = All;
                 Image = ChartOfAccounts;
-                ToolTip = 'Filter the list to show GL Account mappings only.';
+                ToolTip = 'Filter the list to show G/L Account mappings only.';
 
                 trigger OnAction()
                 begin

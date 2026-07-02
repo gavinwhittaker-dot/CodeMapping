@@ -19,7 +19,7 @@ page 50102 "R365 NAV BC Code Mapping Edit"
             {
                 field("Type"; Rec."Type")
                 {
-                    ToolTip = 'Specifies what is being mapped, for example GL Account, Cost Centre, Fund, Analysis Code or Project.';
+                    ToolTip = 'Specifies what is being mapped, for example G/L Account, Cost Centre, Fund, Analysis Code or Project.';
                 }
                 field("Old Code"; Rec."Old Code")
                 {

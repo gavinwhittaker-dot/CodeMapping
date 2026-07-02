@@ -4,7 +4,7 @@ enum 50200 "R365 NAV BC Mapping Type"
 
     value(0; "GL Account")
     {
-        Caption = 'GL Account';
+        Caption = 'G/L Account';
     }
     value(1; "Cost Centre")
     {
