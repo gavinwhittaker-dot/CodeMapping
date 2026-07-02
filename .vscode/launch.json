@@ -1,0 +1,16 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "al",
+      "request": "launch",
+      "name": "AgeUK BC Online",
+      "server": "https://businesscentral.dynamics.com",
+      "authentication": "AAD",
+      //"startupObjectId": 50100,
+      "startupObjectType": "Page",
+      "tenant": "e800e873-7688-4d92-be23-125c6f689269",
+      "environmentName": "Sandbox28"
+    }
+  ]
+}

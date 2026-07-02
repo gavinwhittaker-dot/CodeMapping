@@ -1,0 +1,6 @@
+# AL compiler output
+*.app
+*.g.xlf
+.alpackages/
+.alcache/
+rad.json

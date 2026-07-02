@@ -1,0 +1,27 @@
+{
+  "id": "288a66e5-22a1-4b70-a27f-d409d8393d4e",
+  "name": "AgeUK Code Mapping",
+  "publisher": "Age UK",
+  "version": "1.0.0.0",
+  "brief": "Code mapping extension for NAV to BC migration.",
+  "description": "",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "",
+  "dependencies": [],
+  "screenshots": [],
+  "platform": "28.0.0.0",
+  "application": "28.0.0.0",
+  "idRanges": [
+    {
+      "from": 50100,
+      "to": 50299
+    }
+  ],
+  "runtime": "17.0",
+  "features": [
+    "TranslationFile"
+  ]
+}
