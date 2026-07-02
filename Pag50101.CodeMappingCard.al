@@ -31,4 +31,9 @@ page 50101 "R365 NAV BC Code Mapping Card"
             }
         }
     }
+
+    trigger OnAfterGetCurrRecord()
+    begin
+        CurrPage.Caption := Rec."New Code";
+    end;
 }
