@@ -15,6 +15,10 @@ page 50100 "R365 NAV BC Code Mapping"
         {
             repeater(General)
             {
+                field("Type"; Rec."Type")
+                {
+                    ToolTip = 'Specifies what is being mapped, for example GL Account, Cost Centre, Fund, Analysis Code or Project.';
+                }
                 field("Old Code"; Rec."Old Code")
                 {
                     Caption = 'Nav Code (Old)';
