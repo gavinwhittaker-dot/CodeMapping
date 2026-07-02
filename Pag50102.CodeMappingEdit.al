@@ -25,10 +25,6 @@ page 50102 "R365 NAV BC Code Mapping Edit"
                 {
                     ToolTip = 'Specifies the code used in the old NAV system.';
                 }
-                field("Old Description"; Rec."Old Description")
-                {
-                    ToolTip = 'Specifies the description of the code as it appeared in NAV.';
-                }
                 field("New Code"; Rec."New Code")
                 {
                     ToolTip = 'Specifies the equivalent code in Business Central.';

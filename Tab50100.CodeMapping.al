@@ -23,11 +23,6 @@ table 50100 "R365 NAV BC Code Mapping"
             Caption = 'Old Code (NAV)';
             DataClassification = CustomerContent;
         }
-        field(21; "Old Description"; Text[100])
-        {
-            Caption = 'Old Description (NAV)';
-            DataClassification = CustomerContent;
-        }
         field(30; "New Code"; Code[20])
         {
             Caption = 'New Code (BC)';
@@ -56,7 +51,7 @@ table 50100 "R365 NAV BC Code Mapping"
 
     fieldgroups
     {
-        fieldgroup(DropDown; "Type", "Old Code", "Old Description", "New Code", "New Description")
+        fieldgroup(DropDown; "Type", "Old Code", "New Code", "New Description")
         {
         }
     }
